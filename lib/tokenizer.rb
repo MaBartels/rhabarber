@@ -1,3 +1,5 @@
-require 'tokenizer'
+require 'tokenizer/tokenizer'
 
-require 'version'
+require 'tokenizer/version'
+
+puts "Ich bin klueger."
