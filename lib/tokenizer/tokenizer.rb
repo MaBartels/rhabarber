@@ -1,6 +1,16 @@
+# :title: My first tokenizer
+
+# :main: readme.rdoc 
+
 module Tokenizer
 
+# guess what...
+
 class Tokenizer
+
+# regexp
+
+WL = /\s+/ 
 
 	def initialize (l=:de)
 	
@@ -11,7 +21,7 @@ class Tokenizer
 	def tokenize(str)
 			
 		tokens = []
-		tokens = str.split
+		tokens = str.split(WL)
 		
 		return tokens
 	
