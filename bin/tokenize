@@ -2,7 +2,8 @@ $LOAD_PATH.unshift('U:\rhabarber\lib')
 
 require 'tokenizer'
 
-options = tokenizer::OptParser.parse(ARGV)
+
+options = Tokenizer::OptParse.parse(ARGV)
 
 t = Tokenizer::Tokenizer.new(options)
 	

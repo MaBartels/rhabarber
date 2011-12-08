@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.version = Tokenizer::VERSION
   s.author = "Ma Ba"
   s.email = "missmariabartels@aol.de"
-  s.homepage = "http://www.uni-trier.de/index.php?id=34451" # move on qa.uni
+  s.homepage = ""
   s.executables << 'tokenize'
   s.extra_rdoc_files = FileList['*.rdoc'].to_a
   s.add_development_dependency('rdoc', '>=3.9.1')
