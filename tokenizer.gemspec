@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.description = 'A simple multilingual tokenizer for NLP tasks. This tool provides a CLI and a library for linguistic tokenization which is an anavoidable step for many HLT (human language technology) tasks in the preprocessing phase for further syntactic, semantic and other higher level processing goals. Use it for tokenization of German, English and French texts.'
   s.rubyforge_project = "tokenizer"
   s.version = Tokenizer::VERSION
-  s.author = "Andrei Beliankou"
-  s.email = "a.belenkow@uni-trier.de"
+  s.author = "Ma Ba"
+  s.email = "missmariabartels@aol.de"
   s.homepage = "http://www.uni-trier.de/index.php?id=34451" # move on qa.uni
   s.executables << 'tokenize'
   s.extra_rdoc_files = FileList['*.rdoc'].to_a

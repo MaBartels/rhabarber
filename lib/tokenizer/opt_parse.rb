@@ -18,7 +18,7 @@ module Tokenizer
 		
 			OptionParser.new do|args| # || -> Block als Parameter; liefert Instanz von der Klasse; auch return OptionParser.new do|args|
 			argsbanner = 'Usage: tokenize ARGS'
-			args.on('-h', '--help', 'Show this summary!')			# ON -> schalte etwas ein
+			args.on('-h', '--help', 'Show this summary!', '-v', '--version')			# ON -> schalte etwas ein
 				puts args; exit
 			
 			end
