@@ -33,7 +33,22 @@ module Tokenizer
 				puts VERSION; exit
 			end
 			end
-		
+			
+			f = File.name(ARGV)
+			
+			if f.exist?
+				if f.readable?
+			args.on('-f', '--file', 'Show this filename!') do
+				puts File.basename(f); exit
+			
+			else
+			STDERR.puts 'Sorry, wrong filename.'
+				else
+				STDERR.puts 'Sorry, file is not readable.'
+			
+				end
+			end	
+			end
 		end
 		
 
